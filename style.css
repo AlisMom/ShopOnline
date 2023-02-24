@@ -1,5 +1,24 @@
+@font-face {
+    font-family: "lato-bold";
+    src: local("lato-bold"), local("lato bold"), 
+    url(../fonts/lato-bold.woff2) format("woff2"),
+    url(../fonts/lato-bold.woff) format("woff");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "lato-regular";
+    src: local("lato-regular"), local("lato regular"),
+    url(../fonts/lato-regular.woff2) format("woff2"),
+    url(../fonts/lato-regular.woff) format("woff");
+    font-weight: 400;
+    font-display: swap;
+}
+
 body {
-    font-family: Arial,
+    font-family: "lato-regular", 
+    Arial,
     -apple-system,
     system-ui,
     -apple-system,
@@ -11,7 +30,8 @@ body {
     Cantarell,
     'Open Sans',
     'Helvetica Neue',
-    sans-serif;;
+    sans-serif; 
+
     color: #2d2d2d;
     font-size: 22px;
     font-weight: 400;
@@ -43,7 +63,6 @@ h4 {
 .shoes-title {
     font-size: 50px;
 }
-
 
 .list-shoes {
     font-size: 16px;

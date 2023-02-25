@@ -52,12 +52,9 @@ h4 {
 }
 
 .container {
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
-}
-
-.shoes {
-    width: 1765px;
+    max-width: 1765px;
 }
 
 .shoes-title {
@@ -80,11 +77,16 @@ h4 {
     margin-top: 0;
 }
 
-.conclusion {
-    width: 1095px;
-    margin-bottom: 86px;
-}
-
 .conclusion-text {
     white-space: pre-line;
+    margin: 0;
+}
+
+.text-purchase {
+    font-size: 22px;
+    margin: 0;
+}
+
+.text{
+    margin: 0;
 }
